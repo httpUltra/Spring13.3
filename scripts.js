@@ -35,3 +35,18 @@
 //         return counts;
 //     }, {});
 // }
+
+// // ADD KEY AND VALUE WITH REDUCE
+// const arr = [
+//     {name: 'Elie'},
+//     {name: 'Tim'},
+//     {name: 'Matt'},
+//     {name: 'Colt'}
+// ];
+
+// function addKandA(arr, key, value){
+//     return arr.reduce(function(name, k, v){
+//         name[v][key] = value;
+//         return name;
+//     }, arr)
+// }
