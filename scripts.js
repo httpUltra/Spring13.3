@@ -50,3 +50,23 @@
 //         return name;
 //     }, arr)
 // }
+
+
+// // PARTITION FUNCTION WITH REDUCE
+// function isEven(val){
+//     return val % 2 === 0;
+//   }
+ 
+// const arr = [1,2,3,4,5,6,7,8]; 
+
+// function partition(arr, isEven){
+//     return arr.reduce(function(accum, currentValue){
+//         if (!isEven(currentValue)){
+//             accum[0].push(currentValue);
+//         }
+//         else {
+//             accum[1].push(currentValue);
+//         }
+//         return accum;
+//     }, [[], []])
+// }
